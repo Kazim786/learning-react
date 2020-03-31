@@ -15,11 +15,21 @@
 
     var container = document.querySelector("#container")
 
+    var HelloWorld = React.createClass({
+
+        render: function() {
+            return(
+                <div>Hello World</div>
+            );
+        }
+
+
+    })
     ReactDOM.render(
-        <div>Hello World</div>,
+        <HelloWorld/>,
         container
     );
     </script>
-    </div>
+    </HelloWorld>
 </body>
 </html>
